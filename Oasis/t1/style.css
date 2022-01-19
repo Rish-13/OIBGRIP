@@ -1,0 +1,122 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('/t1/background.jpg');
+    height: 1279px;
+    /* color: white; */
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    padding: 7px;
+}
+
+.left img {
+    width: 122px;
+    margin-left: 25px;
+    /* filter: invert(100%); */
+}
+
+.left div {
+    text-align: center;
+    font-size: 28px;
+    color: #ef4a2d;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 45%;
+    margin: 25px auto;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 34px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    /* color: white; */
+    text-decoration: none;
+    padding: 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(184, 168, 168);
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 7px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(112, 18, 18);
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 115px 50px;
+    padding: 15px 90px;
+    border-radius: 2px;
+    width: 27%;
+}
+
+.icons {
+    margin-top: 200px;
+    margin-right: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 340px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid rgb(57, 55, 209);
+    margin: 8px auto;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.container h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.container button {
+    display: block;
+    color: black;
+    width: 31%;
+    margin: 21px auto;
+    background-color: rgb(210, 233, 187);
+}
+
+.container button:hover {
+    background-color: grey;
+}

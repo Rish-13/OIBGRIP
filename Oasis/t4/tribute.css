@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.bss {
+    margin-left: 60px;
+    margin-top: 26px;
+    color: black;
+    font-size: 40px;
+    position: fixed;
+}
+
+.bss :hover {
+    color: antiquewhite;
+}
+
+.bsi {
+    margin-left: 950px;
+    margin-top: -150px;
+    height: 310px;
+    width: 537px;
+    border: 4px solid white;
+    border-radius: 40px;
+}
+
+.slg {
+    color: #fff600;
+    margin-top: 50px;
+    margin-left: 245px;
+}
+
+.tribute {
+    width: 850px;
+    margin-left: 40px;
+    /* margin-top: -182px; */
+}
+
+.uli {
+    margin-top: -83px;
+}
+
+.sar {
+    margin-top: 135px;
+    margin-left: 115px;
+    font-size: 30px;
+}
+
+.snd {
+    margin-left: 45px;
+}
+
+.icons {
+    position: fixed;
+    top: 75%;
+    right: 0%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.icons i  {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px 0px;
+    background: blueviolet;
+}
+
+.icons i:hover {
+    background: transparent;
+    transition: 0.4s;
+    border: 1px solid black;
+    color: black;
+}
+
+section {
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background: #3586ff;
+    overflow: hidden;
+}
+
+section .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(/footer/wave.png);
+    background-size: 1000px 100px;
+}
+
+section .wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+section .wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+section .wave.wave3 {
+    animation: animate 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15;
+}
+
+section .wave.wave4 {
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+
+@keyframes animate {
+    0% {
+        background-position-x: 0;
+        
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+        
+    }
+    100% {
+        background-position-x: -1000px;
+    }
+}
